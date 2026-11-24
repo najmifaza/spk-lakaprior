@@ -1,0 +1,750 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<?fr-application created="Buku Data Kependudukan"?>
+<?fr-application homesite="http://www.fast-report.com"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+<DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+<Title></Title>
+<Author></Author>
+<Created>10/02/2020T11:55:37Z</Created>
+<Version>...</Version>
+</DocumentProperties>
+<ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+<ProtectStructure>False</ProtectStructure>
+<ProtectWindows>False</ProtectWindows>
+</ExcelWorkbook>
+<Styles>
+<Style ss:ID="s0">
+<Font ss:FontName="Calibri" ss:Size="14" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s1">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#BAD3FE" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s2">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#8080FF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s3">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#73A7FD" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s4">
+<Font ss:FontName="Calibri" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFDA46" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s5">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#BAD3FE" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s6">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s7">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="s8">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s9">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s10">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0.00"/>
+</Style>
+<Style ss:ID="s11">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0.00"/>
+</Style>
+<Style ss:ID="s12">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFDA46" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="s13">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s14">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="s15">
+<Font ss:FontName="Calibri" ss:Size="9" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFFFCC" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0.00"/>
+</Style>
+<Style ss:ID="s16">
+<Font ss:FontName="Calibri" ss:Size="10" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#FFDA46" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s17">
+<Font ss:FontName="Calibri" ss:Size="10" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#BAD3FE" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="s18">
+<Font ss:FontName="Calibri" ss:Size="10" ss:Color="#000000" ss:Bold="1"/>
+<Interior ss:Color="#8080FF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+<Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1" ss:Color="#000000" />
+</Borders>
+<NumberFormat ss:Format="#,##0"/>
+</Style>
+<Style ss:ID="s19">
+<Font ss:FontName="Arial" ss:Size="1" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+<Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="3" ss:Color="#000000" />
+</Borders>
+</Style>
+<Style ss:ID="s20">
+<Font ss:FontName="Calibri" ss:Size="10" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+<Style ss:ID="s21">
+<Font ss:FontName="Arial" ss:Size="1" ss:Color="#000000"/>
+<Interior ss:Color="#FFFFFF" ss:Pattern="Solid"/>
+<Alignment ss:Horizontal="Left" ss:Vertical="Top" ss:WrapText="1" />
+<Borders>
+</Borders>
+</Style>
+</Styles>
+<Worksheet ss:Name="Page 1">
+<Table ss:ExpandedColumnCount="11" ss:ExpandedRowCount="20" x:FullColumns="1" x:FullRows="1">
+<Column ss:AutoFitWidth="0" ss:Width="27.47"/>
+<Column ss:AutoFitWidth="0" ss:Width="43.95"/>
+<Column ss:AutoFitWidth="0" ss:Width="107.12"/>
+<Column ss:AutoFitWidth="0" ss:Width="54.94"/>
+<Column ss:AutoFitWidth="0" ss:Width="38.45"/>
+<Column ss:AutoFitWidth="0" ss:Width="54.94"/>
+<Column ss:AutoFitWidth="0" ss:Width="16.48"/>
+<Column ss:AutoFitWidth="0" ss:Width="21.97"/>
+<Column ss:AutoFitWidth="0" ss:Width="76.91"/>
+<Column ss:AutoFitWidth="0" ss:Width="38.45"/>
+<Row ss:Height="16.48">
+<Cell ss:Index="1" ss:MergeAcross="9" ss:StyleID="s0" >
+<Data ss:Type="String">Laporan Jumlah Jiwa per Kecamatan</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="19.23">
+<Cell ss:Index="1" ss:MergeAcross="9" ss:StyleID="s3" >
+<Data ss:Type="String">Kabupaten/Kota : 33.11 SUKOHARJO</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeDown="1" ss:StyleID="s4" >
+<Data ss:Type="String">No</Data>
+</Cell>
+<Cell ss:Index="2" ss:MergeAcross="1" ss:StyleID="s4" >
+<Data ss:Type="String">Kecamatan</Data>
+</Cell>
+<Cell ss:Index="4" ss:MergeAcross="1" ss:StyleID="s1" >
+<Data ss:Type="String">Pria</Data>
+</Cell>
+<Cell ss:Index="6" ss:MergeAcross="2" ss:StyleID="s1" >
+<Data ss:Type="String">Wanita</Data>
+</Cell>
+<Cell ss:Index="9" ss:MergeAcross="1" ss:StyleID="s2" >
+<Data ss:Type="String">Jumlah</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="2" ss:StyleID="s4" >
+<Data ss:Type="String">Kode</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s4" >
+<Data ss:Type="String">Nama</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s5" >
+<Data ss:Type="String">Jumlah</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s5" >
+<Data ss:Type="String">%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s5" >
+<Data ss:Type="String">Jumlah</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s5" >
+<Data ss:Type="String">%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s2" >
+<Data ss:Type="String">Kecamatan</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s2" >
+<Data ss:Type="String">%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">1</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.01</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">WERU</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">29332</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">49.91%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">29434</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">50,09%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">58766</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">6,48%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">2</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.02</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">BULU</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">19582</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.79%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">18975</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,21%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">38557</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">4,25%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">3</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.03</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">TAWANGSARI</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">28864</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.46%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">28343</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,54%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">57207</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">6,31%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">4</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.04</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">SUKOHARJO</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">48685</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.03%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">48620</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,97%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">97305</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">10,74%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">5</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.05</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">NGUTER</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">28411</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.34%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">28028</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,66%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">56439</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">6,23%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">6</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.06</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">BENDOSARI</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">32192</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.08%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">32090</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,92%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">64282</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">7,09%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">7</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.07</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">POLOKARTO</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">43364</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.25%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">42936</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,75%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">86300</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">9,52%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">8</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.08</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">MOJOLABAN</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">46027</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">49.92%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">46169</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">50,08%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">92196</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">10,17%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">9</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.09</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">GROGOL</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">60791</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.17%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">60383</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,83%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">121174</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">13,37%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">10</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.10</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">BAKI</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">35196</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">50.06%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">35112</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">49,94%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">70308</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">7,76%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">11</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.11</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">GATAK</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">26610</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">49.91%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">26711</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">50,09%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">53321</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">5,88%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:StyleID="s9" >
+<Data ss:Type="String">12</Data>
+</Cell>
+<Cell ss:Index="2" ss:StyleID="s6" >
+<Data ss:Type="String">33.11.12</Data>
+</Cell>
+<Cell ss:Index="3" ss:StyleID="s8" >
+<Data ss:Type="String">KARTASURA</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s7" >
+<Data ss:Type="Number">54825</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s10" >
+<Data ss:Type="String">49.59%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s7" >
+<Data ss:Type="Number">55723</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s11" >
+<Data ss:Type="String">50,41%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s7" >
+<Data ss:Type="Number">110548</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s11" >
+<Data ss:Type="String">12,2%</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s13" >
+<Data ss:Type="String">Jumlah</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s14" >
+<Data ss:Type="Number">453879</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s15" >
+<Data ss:Type="String">50,07%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s14" >
+<Data ss:Type="Number">452524</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">49,93%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s12" >
+<Data ss:Type="Number">906403</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s15" >
+<Data ss:Type="Number"></Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="21.97">
+<Cell ss:Index="1" ss:MergeAcross="2" ss:StyleID="s16" >
+<Data ss:Type="String">Jumlah Total</Data>
+</Cell>
+<Cell ss:Index="4" ss:StyleID="s17" >
+<Data ss:Type="Number">453879</Data>
+</Cell>
+<Cell ss:Index="5" ss:StyleID="s15" >
+<Data ss:Type="String">50,07%</Data>
+</Cell>
+<Cell ss:Index="6" ss:StyleID="s17" >
+<Data ss:Type="Number">452524</Data>
+</Cell>
+<Cell ss:Index="7" ss:MergeAcross="1" ss:StyleID="s15" >
+<Data ss:Type="String">49,93%</Data>
+</Cell>
+<Cell ss:Index="9" ss:StyleID="s18" >
+<Data ss:Type="Number">906403</Data>
+</Cell>
+<Cell ss:Index="10" ss:StyleID="s15" >
+<Data ss:Type="Number"></Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+<Row ss:Height="13.73">
+<Cell ss:Index="1" ss:MergeAcross="6" ss:StyleID="s21" >
+<Data ss:Type="String"></Data>
+</Cell>
+<Cell ss:Index="8" ss:MergeAcross="2" ss:StyleID="s20" >
+<Data ss:Type="String">1 / 1</Data>
+</Cell>
+<Cell ss:Index="11" />
+</Row>
+</Table>
+<WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+<PageSetup>
+<PageMargins x:Bottom="0.75" x:Left="0.75" x:Right="0.75" x:Top="0.75"/>
+</PageSetup>
+</WorksheetOptions>
+</Worksheet>
+</Workbook>
