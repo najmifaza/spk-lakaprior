@@ -34,6 +34,12 @@ function num(float $v, int $dec = 4): string
     return number_format($v, $dec, ',', '.');
 }
 
+/** Persentase untuk atribut CSS: wajib titik desimal, koma membuat deklarasinya tidak sah. */
+function pct(float $v): string
+{
+    return number_format($v, 1, '.', '');
+}
+
 function user(): ?array
 {
     return $_SESSION['user'] ?? null;

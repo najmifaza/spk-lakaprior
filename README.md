@@ -28,17 +28,29 @@ Lalu Lintas di Kabupaten Sukoharjo Menggunakan TOPSIS dan SAW (Studi Kasus Data 
     │   └── build_seed.py                   hitung baseline + tulis ulang data/*.csv dan db/seed.sql
     └── src/                                aplikasi web (PHP native + MySQL)
         ├── config.php                      koneksi PDO, session, CSRF, helper format
-        ├── layout.php                      kerangka halaman + menu
+        ├── layout.php                      kerangka halaman + menu tab
         ├── login.php                       masuk/keluar
-        ├── index.php                       dashboard + 5 peringkat teratas
-        ├── hitung.php                      6 tabel langkah TOPSIS + tabel SAW + perbandingan
-        ├── data.php                        CRUD alternatif, nilai, kriteria, bobot
+        ├── index.php                       tiga tab: Hasil, Cara hitung, Data dan bobot
+        ├── hitung.php                      redirect 302 -> index.php?tab=perhitungan (alamat lama)
+        ├── data.php                        redirect 302 -> index.php?tab=data (alamat lama)
         ├── style.css                       tampilan
         ├── lib/mcdm.php                    mesin TOPSIS/SAW (fungsi murni, tanpa DB)
         ├── lib/data.php                    ambil/simpan data dari MySQL
         └── scripts/
             ├── selfcheck.php               uji mesin hitung vs baseline CSV (tanpa MySQL)
             └── smoke.sh                    uji HTTP: login, proteksi halaman, CSRF, CRUD
+
+Antarmuka berupa satu halaman bertab; tab aktif dibaca dari query `?tab=` (label di menu pakai
+bahasa Indonesia, kuncinya tetap bahasa Inggris).
+
+| Alamat | Label menu | Isi |
+|---|---|---|
+| `index.php` atau `index.php?tab=keputusan` | Hasil | kecamatan peringkat 1 + peringkat lengkap 12 kecamatan (TOPSIS), jumlah peringkat TOPSIS ≠ SAW |
+| `index.php?tab=data` | Data dan bobot | nilai alternatif, bobot + tipe kriteria, tambah/hapus kecamatan dan kriteria |
+| `index.php?tab=perhitungan` | Cara hitung | 6 tabel langkah TOPSIS + tabel SAW + perbandingan peringkat |
+
+`hitung.php` dan `data.php` disimpan sebagai alamat lama (bookmark, tautan di modul) dan hanya
+mengalihkan ke tab yang sesuai. Setiap aksi POST menyimpan lalu kembali ke tab asal.
 
 ## Kriteria
 
@@ -117,9 +129,6 @@ Perhitungan sistem memakai **penjumlahan baris per kecamatan**; nilai luka berat
        python scripts/build_seed.py                  # tulis ulang data/*.csv + db/seed.sql
        /c/xampp/mysql/bin/mysql.exe -u root spk_lakaprior < db/schema.sql
        /c/xampp/mysql/bin/mysql.exe -u root spk_lakaprior < db/seed.sql
-
-Halaman: `index.php` (dashboard), `hitung.php` (6 tabel langkah TOPSIS + SAW + perbandingan peringkat),
-`data.php` (ubah nilai, bobot, tipe kriteria, tambah/hapus alternatif dan kriteria).
 
 Catatan keamanan: `db/seed.sql` menyimpan password sebagai SHA2-256 MySQL (kolom `password_hash CHAR(64)`).
 `login.php` sudah menerima hash `password_hash()` PHP juga, tapi untuk produksi ganti hash seed

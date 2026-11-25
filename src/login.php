@@ -52,7 +52,7 @@ page_head('Masuk');
       <input type="password" name="password" autocomplete="current-password" required>
     </label>
     <button type="submit">Masuk</button>
-    <span class="hint">Akun awal: admin / admin123 — ganti sebelum demo.</span>
+    <span class="hint">Akun awal: admin / admin123. Ganti sebelum dipakai orang lain.</span>
   </form>
 </div>
 <?php page_foot(); ?>

@@ -43,7 +43,7 @@ function check_zero_cost(array $matrix, array $criteria): void
             // ponytail: SAW min/x pecah di baris bernilai 0; TOPSIS tidak.
             throw new RuntimeException(
                 "Kriteria {$c['kode']} ({$c['nama']}) bertipe cost tapi ada alternatif bernilai 0. " .
-                'Ubah tipenya jadi benefit atau ganti kriteria — normalisasi SAW min/x akan 0/0.'
+                'Ubah tipenya jadi benefit atau ganti kriteria, normalisasi SAW min/x akan 0/0.'
             );
         }
     }
